@@ -1,0 +1,27 @@
+/* *{
+    color:darkslateblue;
+} */
+ 
+.salom{
+    color:chartreuse;
+    /* width:100px;
+    height:100px; */
+     font-size:100px;
+}
+
+#salom1{
+    color:darkcyan;
+}
+
+[disabled]{
+    color:darkred;
+} 
+/* Katta div bor */
+.ota{
+    color:deeppink;
+}
+/*
+p{
+    color:gold;
+}
+*/
