@@ -8,20 +8,44 @@
     <link rel='stylesheet' href='6-dars.css'>
 </head>
 <body>
-    <div class = 'ota'>
-
-     <h1 style='color:red '>Salom</h1>
-    <h2>Salom</h2> 
-    <p  class='salom'  id = 'salom1'>Salom</p>
-    <h4 disabled>Salom</h4>
-
+    <!-- 1.Descendant selector -->
+    <!-- <div>
+        <p>SAlom</p>
+        <p>HAyr</p>
+        <section>
+            <p>Ketma</p>
+        </section>
     </div>
 
-    <!-- <style>
- h2{
-     color:chocolate;
- }
+<style>
+    div p{
+        color:blue;
+    }
+</style> -->
 
-    </style> -->
+<!-- 2.Child selector -->
+
+
+<!-- 3.Adjacent sibling selector -->
+
+<!-- 4.General sibling selector -->
+<div>
+    <p>SAlom</p>
+    <p>HAyr</p>
+    <section>
+        <p>Ketma</p>
+    </section>
+</div>
+
+<p>Salom</p>
+
+<style>
+    div ~ p {
+        color:blue;
+    }
+</style>
+
+
+
 </body>
 </html>
